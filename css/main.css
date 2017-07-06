@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/*
+=============================
+NAV BAR
+=============================
+*/
+
+
+nav {
+  background-color: rgba(86, 84, 85, 0.5);
+  text-align: center;
+  height: 77px;
+  position: absolute;
+  width: 100%;
+}
+
+nav .logo {
+  position: relative;
+  left: -346px;
+  padding: 5px;
+  margin-left: 20px;
+}
+ul {
+  text-align: center;
+}
+li {
+  display: inline-block;
+}
+.active {
+  color: #B8A489;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 12px;
+  padding: 20px;
+}
+
+.logo, .nav-links {
+  display: inline-block;
+}
+
+.nav-links {
+  position: relative;
+  bottom: 28px;
+}
+
+i {
+  border-bottom-style: solid;
+  border-bottom-width: thin;
+  padding: 2px;
+}
+
+.icons {
+  float: right;
+  padding: 28px;
+  color: #fff;
+}
+
+/*
+=============================
+SECTION
+=============================
+*/
+
+
+section {
+  background-image: url('../img/office.jpg');
+  background-size: cover;
+  height: 900px;
+  text-align: center;
+}
+
+.header {
+  margin-top: 100px;
+  padding: 342px;
+  padding-right: 410px;
+}
+.header a {
+  background-color: white;
+  color: #0b1016;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px 35px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  top: 50px;
+  left: -7px;
+}
+h1 {
+  color: #fff;
+  font-size: 56px;
+  margin-bottom: 21px;
+}
+p {
+  color: white;
+  font-size: 21px;
+}
+
+
+/*
+=============================
+LINK BUTTONS
+=============================
+*/
+
+
+a.button1 {
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+}
+a.button2 {
+  padding: 12px 35px;
+}
+
+
+/*
+=============================
+ARROW BUTTON
+=============================
+*/
+
+
+.fa-chevron-circle-down {
+  color: white;
+}
