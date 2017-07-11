@@ -134,3 +134,41 @@ ARROW BUTTON
   font-size:20px;
 
 }
+
+@media (max-width:1390px){
+  div.logo img {
+    margin-left: 254px;
+  }
+}
+@media (max-width:1029px) {
+  img {
+    display: none;
+  }
+}
+@media (max-width:1150px) {
+  .nav-links {
+    position: relative;
+    top:33px;
+  }
+}
+@media (max-width:1264px){
+  .header {
+    padding:119px;
+  }
+}
+@media (max-width:693px){
+  .icons {
+    float: none;
+    padding-top:64px;
+  }
+}
+@media (max-width:584px) {
+  a.button1, a.button2 {
+    font-size: 7px;
+  }
+}
+@media (max-width:529px) {
+  div.icons {
+    position: absolute;
+  }
+}
